@@ -1,2 +1,2 @@
-# V-L608G---Trausti-L-kas
+# Tolvuvaedd framleidsla
 Heimasíða fyrir Tölvuvædda framleiðslu og tölvustýrðan vélbúnað
