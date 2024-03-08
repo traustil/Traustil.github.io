@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Verkefni 2 - VÉL608G</title>
+		<title>Verkefni 2: geislaskurður - VÉL608G</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -33,8 +33,8 @@
 							<a href="#">VÉL608G - Tölvustudd framleiðsla</a>
 							<ul>
 								<li><a href="vel608G-verkefni1.html">Verkefni 1 - Vefsíðugerð</a></li>
-								<li><a href="vel608G-verkefni2.html">Verkefni 2</a></li>
-								<li><a href="vel608G-verkefni3.html">Verkefni 3</a></li>
+								<li><a href="vel608G-verkefni2.html">Verkefni 2 - Gielsaskurður</a></li>
+								<li><a href="vel608G-verkefni3.html">Verkefni 3 - Þrívíddarprentun</a></li>
 								<li><a href="vel608G-verkefni4.html">Verkefni 4</a></li>
                                 <li><a href="vel608G-verkefni5.html">Verkefni 5</a></li>
                                 <li><a href="vel608G-lokaverkefni.html">Lokaverkefni</a></li>
@@ -73,10 +73,176 @@
 											 <section>
                                             <h2>Verkefnislýsing</h2>
                                             <p>
-                                                Þessu verkefni er skipt upp í þrjá hluta: Búa til límmiða og skera út með vínylskera, Hanna parametrískt, geirnelgt pressfit módel og lítill prófraun á laser skeranum til þess að reikan út kerfi</p>
+                                                Þessu verkefni er skipt upp í þrjá hluta: SKera út límmiða með vínylskera, Hanna parametrískt, geirnelgt pressfit módel og lítill prófraun á laser skeranum til þess að reikan út kerfi</p>
+                                            
+                                            <h2>Hluti 1 - Vínylskeri</h2>
+                                            
+                                            <p> Fyrsti Þáttur verkefnis tvö var að læra að skera út límmiða með notkun á vínylskera. Nú þótti mér það ótrúlega fyndið og skemmtilegt að prenta út kennimerki á klúbb sem kemur til með að vera heimabar okkar þriða árs nema í útskriftarferðinni okkar núna í maí. Á myndum eitt og tvö er hægt að sjá þau kennimerki sem ég endaði á því að skera út:  </p>
+                                                      
+                                            <div class="image-container">
+                                                <div class="image-wrapper">
+                                                    <img src="images/VEL608G_V2/Vinylskeri/BMC.png" alt="Description of the second image">
+                                                    <p>Mynd 1: Heimabar útskriftarnema í Budva 2024</p>
+                                                </div>
+                                                <div class="image-wrapper">
+                                                     <img src="images/VEL608G_V2/Vinylskeri/SuperEarth.png" alt="Description of the first image" width = 65%>
+                                                    <p>mynd 2: Límmiði 2 </p>
+                                                </div>
+                                            </div>                                             
+                                                 
+                                            Til þess að undirbúa myndirnar fyrir vínylskerann þá flutti ég myndirnar tvær yfir í Inkscape þar sem ég framkvæmdi <em>Trace bitmap</em> á báðar myndir til þess að útbúa útlínur sem til kom að skera eftir. Þar á eftir þarf að slökkva á fill og hafa stroke í svörtum lit.
+                                            
+                                            <div class="image-single-center">
+                                                    <p style="margin-bottom: 10px;"></p>
+                                                    <img src="images/VEL608G_V2/Vinylskeri/Inkscape.png" alt="Description of the image" style="width: 50%; margin: 0 auto; display: block;">
+                                                    <p style="margin-bottom: 30px; font-size: smaller; font-style: italic;">Mynd 3: Útlínur útbúnar fyrir vínylskurð</p>
+                                            </div>
+
+                                            Fyrir skurðinn þarf hins vegar að breyta nokkrum stillingar atriðum, það þarf að ganga úr skugga um að stroke paint sé still á flat colour sem og að breidd á strikunum sé 0,02mm. Að lokum þarf að exporta límmiðanum sem PDF og ganga úr skugga um að þegar hann er opnaður á því formi, þá ætti hann að fylla út í alla pdf skránna. Eftir að ég var búinn að undirbúa báða límmiða líkt og lýst var hér að undan, þá kveikti ég á vínylskeranum og valdu efni fyrir báða miða. 
+                                                 
+                                            <div class="image-container">
+                                                <div class="image-wrapper">
+                                                    <img src="images/VEL608G_V2/Vinylskeri/Sticker.jpg" alt="Description of the second image" width = 50%>
+                                                    <p>Mynd 4: Límmiðinn kominn úr skeranum</p>
+                                                </div>
+                                                <div class="image-wrapper">
+                                                     <img src="images/VEL608G_V2/Vinylskeri/Sticker_peeled.jpg" alt="Description of the first image" width = 50%>
+                                                    <p>mynd 5: Límmiðinn undirbúinn</p>
+                                                </div>
+                                            </div>  
+                                                 
+                                            Til þess að koma límmiðanum á þann hlut sem þú vilt að hann fari á, þá þarf að líma yfir hann líkt og sést á mynd 6. Nú ætti límbandið að vera sterkara heldur en límmiði og nær þannig að taka miðann í heild sinni. Ég hins vegar lenti í miklu basli með vínrauða efnið þar sem límið virtist töluvert sterkara heldur en límbandið og þurfti ég því að að kroppa hann af á meðan ég tók límbandið af. 
+                                                 
+                                            <div class="image-container">
+                                                <div class="image-wrapper">
+                                                    <img src="images/VEL608G_V2/Vinylskeri/SuperEarthprepair.jpg" alt="Description of the second image" width = 50%>
+                                                    <p>Mynd 6: Límband á límmiða</p>
+                                                </div>
+                                                <div class="image-wrapper">
+                                                     <img src="images/VEL608G_V2/Vinylskeri/StickerPC.jpg" alt="Description of the first image" width = 50%>
+                                                    <p>mynd 7: BMC kominn á tölvuna</p>
+                                                </div>
+                                            </div>       
+                                                 
+                                            
+                                            
+                                            <h2>Hluti 2 - Geislaskurður</h2>
+                                                 Markmið þessa hlutar var að búa til geirneglt, parametrískt pressfit módel með því að skera 500x500mm plötur með geislaskera. Í upphafi verkefnis ákvað ég strax að eyða góðum tíma í hugmyndaöflun til þess að búa til hlut sem lætur mig læra á alla þætti geislaskurðar. Þar að auki langaði mig að skera út hlut sem ég gæti haft gaman af því að nota eða horfa á. Eftir langa leit þá fann ég eftirfarandi pressfit módel sem ég taldi mig hafa mikinn áhuga á að gera:
+                                                 <body>
+                                                    <div class="word"><a href="https://www.pinterest.com/pin/773634042262623857/">Fyrsta hugmynd</a></div>
+                                                    <div class="word"><a href="https://www.pinterest.com/pin/1099300590269199662/">Önnur hugmynd</a></div>
+                                                    <div class="word"><a href="https://fab.cba.mit.edu/classes/863.10/people/brian.mayton/02.html">Þriðja hugmynd</a></div>
+                                                </body>
+                                                 
+                                                 Að lokum taldi ég hugmynd eitt og tvö vera einum of flókið fyrir byrjenda og ákvað ég því að búa til geymslukassa með mikinn innblástur frá hugmynd þrjú. á mynd 8 er hægt að sjá þær parametríur sem ég bjó til í upphafi og gerði ráð fyrir að geta notað.
+                                                 
+                                                 <div class="image-single-center">
+                                                    <p style="margin-bottom: 10px;"></p>
+                                                    <img src="images/VEL608G_V2/Lasercut/Parametriur.png" alt="Description of the image" style="width: 50%; margin: 0 auto; display: block;">
+                                                    <p style="margin-bottom: 30px; font-size: smaller; font-style: italic;">Mynd 8: Notaðar parametríur</p>
+                                                </div>
+                                                                                                
+                                                 Fljótlega eftir að ég byrjaði að teikna þá tók ég eftir því að ég ætti eftir að lenda í miklum vandræðum með að tengja hliðarveggi geymslunnar saman, á mynd 9 er hægt að sjá fyrsta vegg sexhyrningsgeymslunnar. 
+                                                 
+                                                 <div class="image-single-center">
+                                                    <p style="margin-bottom: 10px;"></p>
+                                                    <img src="images/VEL608G_V2/Lasercut/FittingProblem.png" alt="Description of the image" style="width: 50%; margin: 0 auto; display: block;">
+                                                    <p style="margin-bottom: 30px; font-size: smaller; font-style: italic;">Mynd 9: Fyrsti veggur</p>
+                                                </div>
+                                                 
+                                                 Það sem auðvelt er að sjá á myndinni hér að ofan er að ef það hefðu komið veggir á allar hliðar sexhyrningsins, þá myndu þeir allir skerast. Þar með ákvað ég að fara aftur á byrjunarreit teikningar og hefjast handa við að endurhugsa hönnunina. Í þetta skipti ákvað ég að hanna tengingu á milli veggja og gólfplötu með sirka millimeter á milli festinga. Á mynd 10 og 11 er hægt að sjá nýjar útfærslur á liðum verkefnisins:
+                                                 
+                                            <div class="image-container">
+                                                <div class="image-wrapper">
+                                                    <img src="images/VEL608G_V2/Lasercut/Lower-joint.png" alt="Description of the second image" width = 50%>
+                                                    <p>Mynd 10: Liður á milli gólfplötu og veggja</p>
+                                                </div>
+                                                <div class="image-wrapper">
+                                                     <img src="images/VEL608G_V2/Lasercut/Upper-joint.png" alt="Description of the first image" width = 50%>
+                                                    <p>mynd 11: Liður á milli veggja</p>
+                                                </div>
+                                            </div>       
+                                                 
+                                                 Þessi nýja útfærsla Bætir við fingurliðum sem og lagar veggjavandamálið og hófst ég því handa við að klára þessa útfærslu. Á myndum 12 og 13 er hægt að sjá hvernig parametríurnar geta breytt fjölda press fit liða á milli veggsins og gólfplötunnar. 
+                                                 
+                                            <div class="image-container">
+                                                <div class="image-wrapper">
+                                                    <img src="images/VEL608G_V2/Lasercut/2tengi.png" alt="Description of the second image" width = 50%>
+                                                    <p>Mynd 12: Tvær press fit tenginar milli gólfplötu og veggs</p>
+                                                </div>
+                                                <div class="image-wrapper">
+                                                     <img src="images/VEL608G_V2/Lasercut/5tengi.png" alt="Description of the first image" width = 50%>
+                                                    <p>mynd 13: fimm press fit tengingar milli gólfplötu og veggs</p>
+                                                </div>
+                                            </div>    
+                                                 
+                                                 Eftir þetta þá notaði ég <em>Pattern on path</em> til þess að setja veggi og festingar á allar hliðar sexhyrningsins. Loka skref teiknivinnslunnar var síðan að bæta við skilrúmi sem skipti geymslunni í fjögur hólf. 
+                                                 
+                                             <div class="image-single-center">
+                                                <p style="margin-bottom: 10px;"></p>
+                                                <img src="images/VEL608G_V2/Lasercut/Loka%C3%BAtg%C3%A1fa.png" alt="Description of the image" style="width: 50%; margin: 0 auto; display: block;">
+                                                <p style="margin-bottom: 30px; font-size: smaller; font-style: italic;">Mynd 14: Lokaútgáfa af geymsluboxi</p>
+                                            </div>
+                                                
+                                                 Næsta skref var að undirbúa skurðarferil sem geislaskerinn myndi skera eftir, það er gert með því að fletja út allt módelið líkt og sést á mynd 15. Á sömu mynd er einnig hægt að sjá hvert þarf að fara til þess að hefjast handa við það að skilgreina kerf sem og geislaskerann:
+                                                 
+                                             <div class="image-container">
+                                                <div class="image-wrapper">
+                                                    <img src="images/VEL608G_V2/Lasercut/PrepareCutting.png" alt="Description of the second image" width = 100%>
+                                                    <p>Mynd 15: Skilgreina geislaskera</p>
+                                                </div>
+                                                <div class="image-wrapper">
+                                                     <img src="images/VEL608G_V2/Lasercut/DefineLaser.png" alt="Description of the first image" width = 100%>
+                                                    <p>mynd 16: Frekari leiðbeiningar fyrir skilgreiningu geislaskera</p>
+                                                </div>
+                                            </div>    
+                                                 
+                                                 Athuga þarf að til þess að módelið sé vel skorið press fit módel, þá þarf að að reikna kerfið geislaskerans líkt og gert er í hluta 3 þessa verkefnis. Í okkar útreikningum fengust hins vegar mjög ólíklegar niðurstöður en fengum við að kerfið ætti að vera 0.102mm sem er allt of lítið. Þar með ákvað ég að byrja á því að skera út miðað við 0.15mm kerf. Til þess að sannreyna bæði kerfið og festingarnar mínar þá ákvað ég að skera eingöngu einn vegg og eina af hvorri festingu. Á mynd 17 er hægt að sjá að press fit tengin komu vel út miðað við 0.15mm kerf
+                                                 
+                                            <div class="image-container">
+                                                <div class="image-wrapper">
+                                                    <img src="images/VEL608G_V2/Lasercut/First%20test.jpg" alt="Description of the second image" width = 50%>
+                                                    <p>Mynd 17: Fyrsta skurðartilraun</p>
+                                                </div>
+                                                <div class="image-wrapper">
+                                                     <img src="images/VEL608G_V2/Lasercut/Firsttest.jpg" alt="Description of the first image" width = 50%>
+                                                    <p>mynd 18: Fyrsta press fit tenging</p>
+                                                </div>
+                                            </div> 
+                                                 
+                                                 Eftir að fyrsta press fit tengingin kom vel út, þá ákvað ég að skera út allt boxið. Það voru hins vegar mistök þar sem ég gerði ekki ráð fyrir því að akríl platan sem ég notaði var ekki jafn þykk alls staðar. Þegar ég reyndi að setja boxið saman komst ég fljótt að því að liðirnir voru langt frá því að vera press fit tengi. Þar með gekk ég í villuprófunarleit til þess að reyna að átta mig á því afhverju liðurinn virkaði í prufuskurðinum en ekki í megin skurðinum. Ég byrjaði á því að skoða hvort að kerfið hafi exportast rétt yfir í inkscape með því að kanna stærðir í fusion og í inkscape. Það virtist rétt og gerði ég því ráð fyrir því að kerfið væri ekki rétt eða þá að geislaskerinn væri að haga sér eitthvað furðuglega. Næst reiknaði ég aftur kerfið með því að mæla bitana mína og komst þá að því að kerfið samkvæmt þeirri mælingu ætti að vera 0.18mm. 
+                                                 
+                                            <div class="image-container">
+                                                <div class="image-wrapper">
+                                                    <img src="images/VEL608G_V2/Lasercut/Measurement.jpg" alt="Description of the second image" width = 50%>
+                                                    <p>Mynd 19: Fyrstu mál</p>
+                                                </div>
+                                                <div class="image-wrapper">
+                                                     <img src="images/VEL608G_V2/Lasercut/Measurement2.jpg" alt="Description of the first image" width = 50%>
+                                                    <p>mynd 19: Seinni mál</p>
+                                                </div>
+                                            </div> 
+                                                 
+                                                 Þar með reyndi ég aftur að skera út upphaflega tilraunareintakið nema með kerfið 0.18 mm en það klikkaði einnig. Í örvæntingu ákvað ég að lokum að skera prufueintakið enn og aftur út nema með kerfið 0.205 mm og tókst þetta þá loksins. Eftir nokkur stökk af gleði ákvað ég að skera allt eintakið út og byrja að púsla því saman. Það var hins vegar einum of mikið press fit og endaði ég á því að brjóta skilrúmin. Hins vegar þarf að athuga að það er mjög óeðlilegt að kerfið á geislaskeranum í vr3 sé 0.205mm og tel ég þar með að eitthvað sé að skeranum, að mig minnir þá skipti Hafliði um eitthvað á honum degi eftir að ég skar út. 
+                                                 
+                                             <div class="image-single-center">
+                                                <p style="margin-bottom: 10px;"></p>
+                                                <img src="images/VEL608G_V2/Lasercut/Ready.jpg" alt="Description of the image" style="width: 35%; margin: 0 auto; display: block;">
+                                                <p style="margin-bottom: 30px; font-size: smaller; font-style: italic;">Mynd 20: Geymsla samsett með brotin skilrúm</p>
+                                            </div>
+                                                 
+                                                 <h3>Press fit módel í tölvustýrðum vélbúnaði</h3>
+                                                    Í tölvustýrðum vélbúnaði á að búa til róbot sem hellir úr vínglasi. Ég endaði á því að nota þekkingu mína á press fit einingum úr þessum áfanga til þess að hanna einn af þremur örmum vélmennisins. Á myndum 21 er hægt að sjá geislaskorna press fit módel 
+                                                
+                                                <div class="image-single-center">
+                                                <p style="margin-bottom: 10px;"></p>
+                                                <img src="images/VEL608G_V2/Lasercut/robot.jpg" alt="Description of the image" style="width: 35%; margin: 0 auto; display: block;">
+                                                <p style="margin-bottom: 30px; font-size: smaller; font-style: italic;">Mynd 21: Geislaskorinn press fit armur á róbot (Sjá Verkefni 2 undir VÉL205M)</p>
+                                            </div>
+                                                 
                                             <h2>Hluti 3 - Kerf prófraun</h2>
 
-                                            <p>Í þessu verkefni var ákveðið að sannreyna kerfið á geislaskeranum með því að teikna nokkra kassa inn í inkscape og láta hann skera þá út. Á mynd 1 er hægt að sjá línurnar sem geislaskerinn fylgdi en á mynd 2 er hægt að sjá hvernig valið var hvar geislaskerinn átti að skera:
+                                            <p>Í þessum hluta verkefnisins átti að sannreyna kerfið á geislaskeranum með því að teikna nokkra kassa inn í inkscape og láta hann skera þá út. Á mynd 1 er hægt að sjá línurnar sem geislaskerinn fylgdi en á mynd 2 er hægt að sjá hvernig valið var hvar geislaskerinn átti að skera:
                                                  </p>     
                                             <div class="image-single-center">
                                                     <p style="margin-bottom: 10px;"></p>
@@ -88,11 +254,11 @@
                                             
                                             <div class="image-container">
                                                 <div class="image-wrapper">
-                                                    <img src="images/VEL608G_V2/KERF/stadsetning.jpg" alt="Description of the second image">
+                                                    <img src="images/VEL608G_V2/KERF/stadsetning.jpg" alt="Description of the second image" width = 50%>
                                                     <p>Mynd 2: Staðsetning skurðarflatar</p>
                                                 </div>
                                                 <div class="image-wrapper">
-                                                     <img src="images/VEL608G_V2/KERF/Skurdur.jpg" alt="Description of the first image">
+                                                     <img src="images/VEL608G_V2/KERF/Skurdur.jpg" alt="Description of the first image" width = 50%>
                                                     <p>mynd 3: Platan skorin</p>
                                                 </div>
                                             </div>
