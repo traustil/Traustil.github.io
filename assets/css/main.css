@@ -1739,6 +1739,11 @@ input, select, textarea {
     text-align: center;
 }
 
+.fusion-container {
+            display: inline-block; /* Make the container inline-block */
+            text-align: left; /* Align the content inside the container to the left */
+        }
+
 .video-container {
     display: flex;
     justify-content: center;
